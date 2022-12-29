@@ -91,3 +91,13 @@ section {
   align-items: center;
   overflow-x: scroll;
 }
+
+.article--container {
+  margin-right: 10px;
+}
+
+.card--img {
+  height: 235px;
+  width: 176px;
+  border-radius: 0.5rem;
+}
