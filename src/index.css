@@ -26,7 +26,7 @@ nav {
 .nav--logo {
   max-width: 100px;
 }
-
+/* hero */
 section {
   padding: 2rem 1rem;
 }
@@ -54,10 +54,6 @@ section {
 
 @media screen and (min-width: 650px) {
 
-  nav {
-    height: 90px;
-  }
-
   .hero {
     padding: 2rem;
   }
@@ -68,12 +64,12 @@ section {
 
   .hero--header {
     margin: 20px 0 10px;
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .hero--text {
     margin-top: 0;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -87,3 +83,6 @@ section {
     width: 800px;
   }
 }
+
+/* article */
+
