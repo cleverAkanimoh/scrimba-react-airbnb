@@ -1,4 +1,4 @@
-export const people = [
+export default [
     {
         img:'./images/katie-zaferes.png',
         price: 136,
@@ -44,4 +44,4 @@ export const people = [
         number: 46,
         category: 'SOLD OUT',
     },
-] 
+];
