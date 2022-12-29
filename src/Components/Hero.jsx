@@ -1,7 +1,12 @@
+import gridImage from "../images/photo-grid.png";
+
 const Hero = () => {
-    return ( 
-        <section>
-            <h2>Hero section</h2>
+    return (
+        <section className="hero">
+            <img src={gridImage} className="hero--photo" />
+            <h1 className="hero--header">Online Experiences</h1>
+            <p className="hero--text">Join unique interactive activities led by 
+            one-of-a-kind hosts—all without leaving home.</p>
         </section>
      );
 }
