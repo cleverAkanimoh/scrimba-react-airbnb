@@ -4,11 +4,11 @@ import Experiences from "./components/Experiences";
 
 const App = () => {
     return (
-        <div>
+        <main>
            <Navbar />
            <Hero />
            <Experiences />
-        </div>
+        </main>
     )
 }
 
