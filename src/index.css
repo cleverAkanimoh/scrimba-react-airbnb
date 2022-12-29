@@ -86,3 +86,8 @@ section {
 
 /* article */
 
+#card {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+}
