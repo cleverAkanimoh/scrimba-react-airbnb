@@ -1,31 +1,24 @@
-import image from '../images/katie-zaferes.png';
+import data from './Data';
 import star from '../images/star.png';
 
-const Experiences = () => {
+const Experiences = ({img,price,rating,tagline,country,number,category}) => {
     return (
         <section id="card">
-            <article class="article--container">
-                <img src={image} alt="katie-zaferes" class="card--img" />
+            {
+                data.map(people => {
+                    <article class="article--container">
+                <img src={people.img} alt="image" class="card--img" />
                 <div className='article--div'>
                     <img src={star} alt="star" className="star--img" />
-                    <var>5.0</var>&nbsp;
-                    <samp>(6)<small></small><abbr>USA</abbr></samp>
+                    <var>{people.rating}</var>&nbsp;
+                    <samp>({people.number})<small></small><abbr>{people.country}</abbr></samp>
                 </div>
-                <p>Life lessons with Katie Zaferes</p>
-                <p><strong>From $136</strong><span className="article--para-span"> / person</span></p>
-                <span className="category">sold out</span>
+                <p>{people.tagline}</p>
+                <p><strong>From ${people.price}</strong><span className="article--para-span"> / person</span></p>
+                <span className="category">{people.category}</span>
             </article>
-            <article class="article--container">
-                <img src={image} alt="katie-zaferes" class="card--img" />
-                <div className='article--div'>
-                    <img src={star} alt="star" className="star--img" />
-                    <var>5.0</var>&nbsp;
-                    <samp>(6)<small></small><abbr>USA</abbr></samp>
-                </div>
-                <p>Life lessons with Katie Zaferes</p>
-                <p><strong>From $136</strong><span className="article--para-span"> / person</span></p>
-                <span className="category">sold out</span>
-            </article>
+                })
+            }
         </section>
     );
 }

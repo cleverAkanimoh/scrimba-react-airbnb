@@ -7,7 +7,7 @@ const App = () => {
         <main>
            <Navbar />
            {/* <Hero /> */}
-           <Experiences />
+           <Experiences  />
         </main>
     )
 }
