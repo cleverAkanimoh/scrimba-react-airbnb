@@ -9,12 +9,14 @@
 } */
 
 main {
+  position: relative;
   width: 100%;
   height: auto;
 }
 
 nav {
   height: 70px;
+  /* position: fixed; */
   width: 100%;
   display: flex;
   padding: 20px 36px;
@@ -50,11 +52,37 @@ section {
   font-size: 1rem;
 }
 
+@media screen and (min-width: 650px) {
+
+  nav {
+    height: 90px;
+  }
+
+  .hero {
+    padding: 2rem;
+  }
+
+  .hero--photo {
+    max-width: 600px;
+  }
+
+  .hero--header {
+    margin: 20px 0 10px;
+    font-size: 2.3rem;
+  }
+
+  .hero--text {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+}
+
 @media screen and (min-width: 800px) {
-  body{
+  body {
     display: flex;
     justify-content: center;
   }
+
   main {
     width: 800px;
   }
