@@ -7,35 +7,24 @@ const Experiences = () => {
             <article class="article--container">
                 <img src={image} alt="katie-zaferes" class="card--img" />
                 <div className='article--div'>
-                    <img src={star} alt="star" />
-                    <small>5.0</small>&nbsp;
-                    <samp>(6)&circ;</samp>
-                    <abbr>USA</abbr>
+                    <img src={star} alt="star" className="star--img" />
+                    <var>5.0</var>&nbsp;
+                    <samp>(6)<small></small><abbr>USA</abbr></samp>
                 </div>
                 <p>Life lessons with Katie Zaferes</p>
-                <p><strong>From $136</strong> / person</p>
+                <p><strong>From $136</strong><span className="article--para-span"> / person</span></p>
+                <span className="category">sold out</span>
             </article>
             <article class="article--container">
                 <img src={image} alt="katie-zaferes" class="card--img" />
                 <div className='article--div'>
-                    <img src={star} alt="star" />
-                    <small>5.0</small>&nbsp;
-                    <samp>(6)&circ;</samp>
-                    <abbr>USA</abbr>
+                    <img src={star} alt="star" className="star--img" />
+                    <var>5.0</var>&nbsp;
+                    <samp>(6)<small></small><abbr>USA</abbr></samp>
                 </div>
                 <p>Life lessons with Katie Zaferes</p>
-                <p><strong>From $136</strong> / person</p>
-            </article>
-            <article class="article--container">
-                <img src={image} alt="katie-zaferes" class="card--img" />
-                <div className='article--div'>
-                    <img src={star} alt="star" />
-                    <small>5.0</small>&nbsp;
-                    <samp>(6)&circ;</samp>
-                    <abbr>USA</abbr>
-                </div>
-                <p>Life lessons with Katie Zaferes</p>
-                <p><strong>From $136</strong> / person</p>
+                <p><strong>From $136</strong><span className="article--para-span"> / person</span></p>
+                <span className="category">sold out</span>
             </article>
         </section>
     );

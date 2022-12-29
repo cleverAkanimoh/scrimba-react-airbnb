@@ -26,6 +26,7 @@ nav {
 .nav--logo {
   max-width: 100px;
 }
+
 /* hero */
 section {
   padding: 2rem 1rem;
@@ -93,11 +94,64 @@ section {
 }
 
 .article--container {
+  position: relative;
   margin-right: 10px;
+}
+
+.article--container .category {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: white;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  font-weight: light;
+  color: #424242;
 }
 
 .card--img {
   height: 235px;
-  width: 176px;
-  border-radius: 0.5rem;
+  width: 190px;
+  border-radius: 0.30rem;
+}
+
+.star--img {
+  width: 14px;
+  height: 14px;
+}
+
+.article--container var {
+  font-size: 17px;
+  color: #2e2e2e;
+  font-style: normal;
+  padding: 0 0.2rem
+}
+
+.article--container small {
+  display: inline-block;
+  width:3px;
+  height:3px;
+  background: #918E9B;
+  border-radius: 50%;
+  margin: 0.2rem; 
+}
+
+.article--container samp{
+  color: #918E9B;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.article--container p {
+  font-size: 0.921rem;
+  padding: 0.15rem 0;
+}
+
+.article--para-span {
+  color: #918E9B;
+}
+
+.article--container strong {
+  font-size: 13.5px;
+
 }
