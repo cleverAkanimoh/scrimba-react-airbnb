@@ -1,10 +1,9 @@
-import React from 'react'
 import logo from '../images/airbnb-logo.png';
 
-function Navbar() {
+const Navbar = () => {
     return (
         <nav>
-            <img src={logo} alt="AirBnB logo" className="nav--logo"/>
+            <h1>navbar</h1>
         </nav>
     )
 }
