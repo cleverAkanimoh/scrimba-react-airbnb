@@ -1,6 +1,7 @@
 export default [
     {
-        img:'./images/katie-zaferes.png',
+        id:1,
+        img:'src/images/katie-zaferes.png',
         price: 136,
         rating: 5.0,
         tagline:'Life lessons with Katie Zaferes',
@@ -9,16 +10,18 @@ export default [
         category: 'SOLD OUT'
     },
     {
-        img:'./images/wedding-photography.png',
+        id:2,
+        img:'/src/images/wedding-photography.png',
         price: 135,
         rating: 5.0,
-        tagline:'Learb wedding photography',
+        tagline:'Learn wedding photography',
         country: 'USA',
         number: 30,
         category: 'ONLINE'
     },
     {
-        img:'./images/mountain-bike.png',
+        id:3,
+        img:'/src/images/mountain-bike.png',
         price: 50,
         rating: 4.8,
         tagline:'Group Mountain Biking',
@@ -27,7 +30,8 @@ export default [
         category: 'ONSITE'
     },
     {
-        img:'./images/tech_bg5.webp',
+        id:4,
+        img:'/src/images/tech_bg5.webp',
         price: 136,
         rating: 5.0,
         tagline:'Navigate the AI world',
@@ -36,9 +40,10 @@ export default [
         category: 'ONLINE',
     },
     {
-        img:'./images/gymdesign.png',
-        price: 136,
-        rating: 5.0,
+        id:5,
+        img:'/src/images/gymdesign.png',
+        price: 16,
+        rating: 4.5,
         tagline:'Known more about product design',
         country: 'NGN',
         number: 46,

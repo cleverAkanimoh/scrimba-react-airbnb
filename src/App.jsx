@@ -1,15 +1,17 @@
 import { useState } from 'react';
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Experiences from "./components/Experiences";
-import Experiences from "./components/Data";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import Experiences from "./Components/Experiences";
+import data from "./Components/Data";
 
 const App = () => {
+
+    const [people, setPeople] = useState(data);
     return (
         <main>
            <Navbar />
-           {/* <Hero /> */}
-           <Experiences />
+           <Hero />
+           <Experiences people={people} />
         </main>
     )
 }
