@@ -1,7 +1,7 @@
 export default [
     {
         id:1,
-        img:'src/images/katie-zaferes.png',
+        img:'/images/katie-zaferes.png',
         price: 136,
         rating: 4.9,
         tagline:'Life lessons with Katie Zaferes',
@@ -11,7 +11,7 @@ export default [
     },
     {
         id:2,
-        img:'/src/images/wedding-photography.png',
+        img:'/images/wedding-photography.png',
         price: 135,
         rating: 4.8,
         tagline:'Learn wedding photography',
@@ -21,7 +21,7 @@ export default [
     },
     {
         id:3,
-        img:'/src/images/mountain-bike.png',
+        img:'/images/mountain-bike.png',
         price: 50,
         rating: 4.8,
         tagline:'Group Mountain Biking',
@@ -31,7 +31,7 @@ export default [
     },
     {
         id:4,
-        img:'/src/images/tech_bg5.webp',
+        img:'/images/tech_bg5.webp',
         price: 136,
         rating: 4.9,
         tagline:'Navigate the AI world',
@@ -41,7 +41,7 @@ export default [
     },
     {
         id:5,
-        img:'/src/images/gymdesign.png',
+        img:'/images/gymdesign.png',
         price: 16,
         rating: '5.0',
         tagline:'Known more about product design',
