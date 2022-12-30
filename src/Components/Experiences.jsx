@@ -6,7 +6,7 @@ const Experiences = ({people}) => {
         <section id="card">
             {people.map(person => {
                 const { id, img, price, rating, tagline, country, number, category } = person;
-                console.log(people);
+                
                 return <article key={id} className="article--container">
                     <img src={img} alt="image" className="card--img" />
                     <div className='article--div'>
